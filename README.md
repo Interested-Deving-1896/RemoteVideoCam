@@ -1,48 +1,75 @@
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # RemoteVideoCam
 
-Remote Video Cam is an open-source Android application that allows two devices to stream high-quality video and audio to each other over a local connection. Whether you're using it as a baby monitor, a DIY security camera, or a walkie-talkie, RemoteVideoCam offers a secure, offline-first solution without the need for internet access or third-party servers.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/RemoteVideoCam)
 
-## ✨ Features
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-- **Zero Configuration**: Devices automatically discover and connect to each other.
-- **Robust Connection**: Automatically negotiates the best available connection method:
-  - **Local Network (LAN)**: Uses your existing Wi-Fi network.
-  - **Wi-Fi Aware / Wi-Fi Direct**: Connects devices directly without an access point (offline).
-- **Secure & Private**: No external servers. No cloud. Video and audio streams never leave your local environment.
-- **Modern UI**: Built with **Jetpack Compose** and **Material 3**, offering a beautiful, responsive, and intuitive interface with dynamic colors.
-- **Two Modes**:
-  - **Camera Mode**: Acts as the broadcaster.
-  - **Display Mode**: View the feed from the other device.
-    - *Includes "Mirror" option to flip the video horizontally.*
-  - *Note: Both devices can be in Display Mode to see each other (bidirectional).*
-- **Audio Support**: Hear what's happening on the other end.
+## Architecture
 
-## ⚠️ Important Note
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-**Not a Medical Device**: While RemoteVideoCam can be useful for monitoring (e.g., as a baby monitor), it is **not** a certified medical device. 
-- Video feeds may freeze due to network interference.
-- Always have a backup monitoring method.
-- **Tip**: Place a moving object (like a clock with a second hand) in the frame to easily verify that the video is live.
+## Install
 
-## 🛠️ Tech Stack
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose (Material 3)
-- **Video/Audio**: WebRTC (Local negotiation)
-- **Computer Vision**: OpenCV (used for specific image processing tasks)
-- **Architecture**: MVVM with reactive data streams (RxJava/RxAndroid)
+```bash
+git clone https://github.com/Interested-Deving-1896/RemoteVideoCam.git
+cd RemoteVideoCam
+```
 
-## 📥 distinct
+## Usage
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-     alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/org.avmedia.remotevideocam/)
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
-     alt="Get it on Google Play"
-     height="80">](https://play.google.com/store/apps/details?id=org.avmedia.remotevideocam)
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-## 🤝 Contributing
+## Configuration
 
-Contributions are welcome! If you're a developer and want to help improve RemoteVideoCam, please feel free to fork the repository and submit a pull request.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-For major changes or questions, please contact the maintainer at `izivkov@gmail.com`.
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/RemoteVideoCam`](https://github.com/Interested-Deving-1896/RemoteVideoCam) and mirrored through:
+
+```
+Interested-Deving-1896/RemoteVideoCam  ──►  OpenOS-Project-OSP/RemoteVideoCam  ──►  OpenOS-Project-Ecosystem-OOC/RemoteVideoCam
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
